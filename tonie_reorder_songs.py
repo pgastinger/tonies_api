@@ -65,3 +65,4 @@ if __name__ == "__main__":
         if reorder_songs_for_tonies == "all" or item["name"] in reorder_songs_for_tonies:
             print("Reorder song for tonie %s " % (item["name"]))
             reorder_songs(session, household["id"], item["id"], chapters)
+
